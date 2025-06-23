@@ -1,0 +1,266 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --2xl-dark-max-font-family: "Satoshi Variable", Helvetica;
+  --2xl-dark-max-font-size: 32px;
+  --2xl-dark-max-font-style: normal;
+  --2xl-dark-max-font-weight: 500;
+  --2xl-dark-max-letter-spacing: 0px;
+  --2xl-dark-max-line-height: 105.99999237060547%;
+  --2xl-dark-min-font-family: "Satoshi Variable", Helvetica;
+  --2xl-dark-min-font-size: 22px;
+  --2xl-dark-min-font-style: normal;
+  --2xl-dark-min-font-weight: 500;
+  --2xl-dark-min-letter-spacing: 0px;
+  --2xl-dark-min-line-height: 105.99999237060547%;
+  --3xl-dark-max-font-family: "Satoshi Variable", Helvetica;
+  --3xl-dark-max-font-size: 48px;
+  --3xl-dark-max-font-style: normal;
+  --3xl-dark-max-font-weight: 500;
+  --3xl-dark-max-letter-spacing: 0px;
+  --3xl-dark-max-line-height: 105.99999237060547%;
+  --3xl-dark-min-font-family: "Satoshi Variable", Helvetica;
+  --3xl-dark-min-font-size: 32px;
+  --3xl-dark-min-font-style: normal;
+  --3xl-dark-min-font-weight: 500;
+  --3xl-dark-min-letter-spacing: 0px;
+  --3xl-dark-min-line-height: 105.99999237060547%;
+  --3xl-light-max-font-family: "Satoshi Variable", Helvetica;
+  --3xl-light-max-font-size: 48px;
+  --3xl-light-max-font-style: normal;
+  --3xl-light-max-font-weight: 400;
+  --3xl-light-max-letter-spacing: 0px;
+  --3xl-light-max-line-height: 105.99999237060547%;
+  --3xl-light-min-font-family: "Satoshi Variable", Helvetica;
+  --3xl-light-min-font-size: 32px;
+  --3xl-light-min-font-style: normal;
+  --3xl-light-min-font-weight: 400;
+  --3xl-light-min-letter-spacing: 0px;
+  --3xl-light-min-line-height: 105.99999237060547%;
+  --brand-01: rgba(252, 252, 254, 1);
+  --brand-06: rgba(216, 210, 244, 1);
+  --brand-09: rgba(104, 82, 214, 1);
+  --branddark-07: rgba(69, 54, 141, 1);
+  --branddark-09: rgba(104, 82, 214, 1);
+  --branddark-12: rgba(252, 252, 254, 1);
+  --darkforeground: rgba(250, 250, 255, 1);
+  --grayscale-01: rgba(250, 250, 255, 1);
+  --grayscale-12: rgba(20, 19, 29, 1);
+  --grayscaledark-01: rgba(10, 9, 20, 1);
+  --grayscaledark-03: rgba(25, 24, 34, 1);
+  --grayscaledark-08: rgba(84, 83, 91, 1);
+  --grayscaledark-12: rgba(250, 250, 255, 1);
+  --lg-body-max-font-family: "Satoshi Variable", Helvetica;
+  --lg-body-max-font-size: 18px;
+  --lg-body-max-font-style: normal;
+  --lg-body-max-font-weight: 500;
+  --lg-body-max-letter-spacing: 0.09px;
+  --lg-body-max-line-height: 120.00000762939453%;
+  --lg-body-min-font-family: "Satoshi Variable", Helvetica;
+  --lg-body-min-font-size: 16px;
+  --lg-body-min-font-style: normal;
+  --lg-body-min-font-weight: 500;
+  --lg-body-min-letter-spacing: 0.08px;
+  --lg-body-min-line-height: 120.00000762939453%;
+  --lg-body-richtext-font-family: "Satoshi Variable", Helvetica;
+  --lg-body-richtext-font-size: 18px;
+  --lg-body-richtext-font-style: normal;
+  --lg-body-richtext-font-weight: 500;
+  --lg-body-richtext-letter-spacing: 0.09px;
+  --lg-body-richtext-line-height: 120.00000762939453%;
+  --lg-heading-light-min-font-family: "Satoshi Variable", Helvetica;
+  --lg-heading-light-min-font-size: 16px;
+  --lg-heading-light-min-font-style: normal;
+  --lg-heading-light-min-font-weight: 400;
+  --lg-heading-light-min-letter-spacing: 0px;
+  --lg-heading-light-min-line-height: 112%;
+  --lg-heding-light-max-font-family: "Satoshi Variable", Helvetica;
+  --lg-heding-light-max-font-size: 18px;
+  --lg-heding-light-max-font-style: normal;
+  --lg-heding-light-max-font-weight: 400;
+  --lg-heding-light-max-letter-spacing: 0px;
+  --lg-heding-light-max-line-height: 112%;
+  --md-dark-font-family: "Satoshi Variable", Helvetica;
+  --md-dark-font-size: 16px;
+  --md-dark-font-style: normal;
+  --md-dark-font-weight: 500;
+  --md-dark-letter-spacing: 0.08px;
+  --md-dark-line-height: 112%;
+  --md-light-font-family: "Satoshi Variable", Helvetica;
+  --md-light-font-size: 16px;
+  --md-light-font-style: normal;
+  --md-light-font-weight: 400;
+  --md-light-letter-spacing: 0.08px;
+  --md-light-line-height: 112%;
+  --orange-06: rgba(255, 210, 187, 1);
+  --orange-07: rgba(255, 193, 161, 1);
+  --orange-09: rgba(255, 113, 41, 1);
+  --orangedark-08: rgba(177, 83, 36, 1);
+  --orangedark-09: rgba(255, 127, 62, 1);
+  --planet-blur: ;
+  --red-05: rgba(251, 211, 205, 1);
+  --sm-medium-font-family: "Inter", Helvetica;
+  --sm-medium-font-size: 14px;
+  --sm-medium-font-style: normal;
+  --sm-medium-font-weight: 500;
+  --sm-medium-letter-spacing: -0.07000000000000002px;
+  --sm-medium-line-height: 140%;
+  --sm-regular-font-family: "Satoshi Variable", Helvetica;
+  --sm-regular-font-size: 14px;
+  --sm-regular-font-style: normal;
+  --sm-regular-font-weight: 500;
+  --sm-regular-letter-spacing: 0.2800000000000001px;
+  --sm-regular-line-height: 140%;
+  --xl-body-max-font-family: "Satoshi Variable", Helvetica;
+  --xl-body-max-font-size: 22px;
+  --xl-body-max-font-style: normal;
+  --xl-body-max-font-weight: 500;
+  --xl-body-max-letter-spacing: 0.11px;
+  --xl-body-max-line-height: 120.00000762939453%;
+  --xl-body-min-font-family: "Satoshi Variable", Helvetica;
+  --xl-body-min-font-size: 18px;
+  --xl-body-min-font-style: normal;
+  --xl-body-min-font-weight: 500;
+  --xl-body-min-letter-spacing: 0.09px;
+  --xl-body-min-line-height: 120.00000762939453%;
+  --xl-heading-dark-min-font-family: "Satoshi Variable", Helvetica;
+  --xl-heading-dark-min-font-size: 18px;
+  --xl-heading-dark-min-font-style: normal;
+  --xl-heading-dark-min-font-weight: 500;
+  --xl-heading-dark-min-letter-spacing: 0px;
+  --xl-heading-dark-min-line-height: 105.99999237060547%;
+  --xl-heading-light-min-font-family: "Satoshi Variable", Helvetica;
+  --xl-heading-light-min-font-size: 18px;
+  --xl-heading-light-min-font-style: normal;
+  --xl-heading-light-min-font-weight: 400;
+  --xl-heading-light-min-letter-spacing: 0px;
+  --xl-heading-light-min-line-height: 105.99999237060547%;
+  --xl-heding-dark-max-font-family: "Satoshi Variable", Helvetica;
+  --xl-heding-dark-max-font-size: 22px;
+  --xl-heding-dark-max-font-style: normal;
+  --xl-heding-dark-max-font-weight: 500;
+  --xl-heding-dark-max-letter-spacing: 0px;
+  --xl-heding-dark-max-line-height: 105.99999237060547%;
+  --xl-heding-light-max-font-family: "Satoshi Variable", Helvetica;
+  --xl-heding-light-max-font-size: 22px;
+  --xl-heding-light-max-font-style: normal;
+  --xl-heding-light-max-font-weight: 400;
+  --xl-heding-light-max-letter-spacing: 0px;
+  --xl-heding-light-max-line-height: 105.99999237060547%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) linear infinite;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}

@@ -1,0 +1,1 @@
+export { PartnershipListWrapperSection } from "./PartnershipListWrapperSection";
