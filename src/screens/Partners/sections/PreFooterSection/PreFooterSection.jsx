@@ -8,12 +8,12 @@ export const PreFooterSection = () => {
       <img
         className="absolute -top-36 -left-36 w-[400px] h-[400px] object-contain z-0 opacity-80"
         alt="Blur Layer Heavy"
-        src="/src/pics/Group 1.png"
+        src="/pics/Group 1.png"
       />
       <img
         className="absolute bottom-0 right-0 w-[400px] h-[400px] object-contain z-0 opacity-80"
         alt="Blur Layer Heavy 1"
-        src="/src/pics/Comets (1).png"
+        src="/pics/comets (1).png"
       />
 
       <div className="relative w-full h-full">

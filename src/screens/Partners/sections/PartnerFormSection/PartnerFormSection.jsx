@@ -16,55 +16,55 @@ export const PartnerFormSection = () => {
       size: "w-[33px] h-8",
       position: "top-64 left-[1304px]",
       opacity: "opacity-60",
-      subtractSrc: "/src/pics/star.png",
+      subtractSrc: "/pics/Star.png",
     },
     {
       size: "w-[51px] h-[50px]",
       position: "top-[195px] left-28",
       opacity: "opacity-20",
-      subtractSrc: "/src/pics/star.png",
+      subtractSrc: "/pics/Star.png",
     },
     {
       size: "w-[18px] h-[18px]",
       position: "top-[282px] left-[296px]",
       opacity: "opacity-40",
-      subtractSrc: "/src/pics/star.png",
+      subtractSrc: "/pics/Star.png",
     },
     {
       size: "w-[18px] h-[18px]",
       position: "top-64 left-[907px]",
       opacity: "opacity-40",
-      subtractSrc: "/src/pics/star.png",
+      subtractSrc: "/pics/Star.png",
     },
     {
       size: "w-[24px] h-[24px]",
       position: "top-[120px] right-[80px]",
       opacity: "opacity-50",
-      subtractSrc: "/src/pics/star.png",
+      subtractSrc: "/pics/Star.png",
     },
     {
       size: "w-[40px] h-[40px]",
       position: "bottom-[150px] left-[60px]",
       opacity: "opacity-30",
-      subtractSrc: "/src/pics/star.png",
+      subtractSrc: "/pics/Star.png",
     },
     {
       size: "w-[20px] h-[20px]",
       position: "top-[350px] right-[200px]",
       opacity: "opacity-70",
-      subtractSrc: "/src/pics/star.png",
+      subtractSrc: "/pics/Star.png",
     },
     {
       size: "w-[30px] h-[30px]",
       position: "bottom-[80px] right-[120px]",
       opacity: "opacity-60",
-      subtractSrc: "/src/pics/star.png",
+      subtractSrc: "/pics/Star.png",
     },
     {
       size: "w-[15px] h-[15px]",
       position: "top-[50px] left-[200px]",
       opacity: "opacity-40",
-      subtractSrc: "/src/pics/star.png",
+      subtractSrc: "/pics/Star.png",
     },
   ];
 
@@ -73,27 +73,27 @@ export const PartnerFormSection = () => {
       <img
         className="absolute -top-100 -right-100 w-[10001px] h-[1000px] object-contain z-0 opacity-80 mix-blend-lighten"
         alt="1"
-        src="/src/pics/Mask group.png"
+        src="/pics/Mask group.png"
       />
       <img
         className="absolute bottom-0 right-0 w-[400px] h-[400px] object-contain z-0 opacity-80 mix-blend-lighten"
         alt="2"
-        src="/src/pics/comets (1).png"
+        src="/pics/comets (1).png"
       />
       <img
         className="absolute bottom-0 -right-10  w-[300px] h-[300px] object-contain z-0 opacity-60 mix-blend-lighten"
         alt="3"
-        src="/src/pics/comets (5).png"
+        src="/pics/comets (5).png"
       />
       <img
         className="absolute bottom-0 -left-28 w-[500px] h-[500px] object-contain z-0 opacity-60 mix-blend-lighten"
         alt="4"
-        src="/src/pics/Comets (4).png"
+        src="/pics/comets (4).png"
       />
       <img
         className="absolute -bottom-16 left-0 w-[800px] h-[800px] object-contain z-0 opacity-60 mix-blend-lighten"
         alt="5"
-        src="/src/pics/Comets (1).png"
+        src="/pics/comets (1).png"
       />
       {glowingOrbs.map((orb, idx) => (
         <img

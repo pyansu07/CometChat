@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
-import NewIcon from "../../../../pics/new.png";
+const NewIcon = "/pics/new.png";
 
 export const PartnershipTypesSection = () => {
 
